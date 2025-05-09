@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVT</title>
+    <link rel="stylesheet" href="{% static 'app/django.css' %}">
+</head>
+<body>
+
+    <h1>Welcome To MVT Page</h1>
+    <p>Model-View-Template architecture, otherwise known as MVT, is a software design pattern within Django that utilizes:</p>
+    <ul> 
+        
+        <li>Models to handle data logic and structure of your database</li>
+        <li>Views to handle the applications logic and functionality</li>
+        <li>Templates to handle the layout and structure of the user facing application</li>
+    </ul>
+    <br>
+
+    <a href="/">Go to Home Page</a>
+    <br>
+    <a href="/about">Go to About Page</a>
+    <br>
+    <a href="/django">Go to Django Page</a>     
+    <br>
+    <a href="/python">Go to Python Page</a>
+</body>
+</html>
